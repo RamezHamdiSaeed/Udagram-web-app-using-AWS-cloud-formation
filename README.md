@@ -6,5 +6,5 @@ In this project i created the infrastructure as a code with networking, to creat
 
 Just run;
 ```sh
-> ./create.sh Udagram Infrastructure.yml UdagramAfterDeployment.json
+> ./create.sh UdagramApp infrastructure_networkandserver.yml infrastructure_networkandserver.json
 ```
