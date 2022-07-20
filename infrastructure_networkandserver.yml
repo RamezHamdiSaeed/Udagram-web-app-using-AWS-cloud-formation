@@ -89,7 +89,7 @@ Resources:
           VpcId: !Ref VPC
           AvailabilityZone: !Select [ 1, !GetAZs '' ]
           CidrBlock: !Ref PublicSubnet2CIDR
-          MapPublicIpOnLaunch: false
+          MapPublicIpOnLaunch: true
           Tags: 
               - Key: Name
                 Value: !Sub ${EnvironmentName} Public Subnet (AZ2)
